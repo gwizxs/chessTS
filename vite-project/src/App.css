@@ -1,0 +1,144 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(245, 205, 142, 0.552);
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: calc(64px * 8);
+  height: calc(64px * 8);
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 35px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.cell {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.black {
+  background-color: rgb(101, 72, 36);
+}
+.white {
+  background-color: #937238;
+}
+
+.selected {
+  background-color: rgb(210, 190, 190);
+}
+.available {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #fff2de;
+}
+
+.lost {
+  height: calc(50vh - 60px);
+  padding: 30px;
+  margin-left: 50px;
+  background-color: rgb(193, 160, 100);
+  border-radius: 30px;
+  margin-bottom: 20px;
+  border: #2e2e2e;
+}
+
+.btn-restart {
+  height: 50px;
+  width: 120px;
+  background-color: #fff0cf;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.btn-restart:hover {
+background-color: #dfc793;
+}
+
+
+.select-btn {
+  height: 50px;
+  width: 120px;
+  background-color: #fff0cf;
+  border-radius: 9px;
+  margin-right: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.select-btn:hover {
+  background-color: #dfc793;
+}
+
+
+.btn-start {
+  height: 60px;
+  width: 150px;
+  background-color: #fff0cf;
+  border-radius: 9px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.btn-start:hover {
+  background-color: #dfc793;
+}
+
+.btn-stop {
+  height: 60px;
+  width: 150px;
+  background-color: #fff0cf;
+  border-radius: 9px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.btn-stop:hover {
+  background-color: #dfc793;
+}
+
+
+.divButton {
+  margin-top: 30px;
+}
+
+
+.h {
+  color: rgb(66, 66, 66);
+  display: flex;
+  justify-content: center;
+   align-items: center;
+  margin-bottom: 16px;
+}
+
+:root {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  --black: #800000
+}
+
